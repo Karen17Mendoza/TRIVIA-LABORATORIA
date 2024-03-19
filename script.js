@@ -8,12 +8,7 @@ let opcion_elegida_3=[]
 
 
 
-function Responder_1(){
+function responder_1(){
   
-  for (i=0;i<correcta_1.length; i++){
-    if (correcta_1[i]==opcion_elegida_1[i]){
-      document.print('La respuesta correcta es')
-    }
-  }
-    
+    document.getElementById(resultado).innerHTML = La respuesta correcta es: Aritoteles
 }
