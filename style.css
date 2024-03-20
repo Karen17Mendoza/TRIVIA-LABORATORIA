@@ -5,7 +5,7 @@
   
 }
 .nombre-input {
-    font-size: 20px; /* Tamaño de fuente */
+    font-size: 30px; /* Tamaño de fuente */
     padding: 8px; /* Espaciado interno */
     width: 300px; /* Ancho del campo de entrada */
 }
@@ -26,6 +26,9 @@ h1 {
   color:  black;
   text-align: center;
   font-size: 80px;
+}
+.mensaje-bienvenida {
+    font-size: 24px; 
 }
 button {
   display: inline-block;

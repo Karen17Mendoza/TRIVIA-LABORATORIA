@@ -18,18 +18,22 @@
 
       
         <div id="bienvenida" >
-          
+        <br>
         <label for="nombre" class = "nombre-input">Ingrese su nombre:</label>
-        <input type="text" id="nombre" > <br>
-          
+        <br>
+        <input type="text" id="nombre" class = "nombre-input">
+        <br>
+        <br>  
         <button onclick="elegirTipoPreguntas('faciles')">TEMA 1</button> 
-        <button onclick="elegirTipoPreguntas('dificiles')">TEMA 2</button> <br>    
+        <button onclick="elegirTipoPreguntas('dificiles')">TEMA 2</button>
+        <br>    
+        <br>    
         <button onclick="iniciarJuego()">Jugar</button>
         
         </div>      
             
       <div id="preguntas" style="display: none;">
-        <p id="mensajeBienvenida"></p>
+        <p id="mensajeBienvenida" class="mensaje-bienvenida"></p>
         <h1>!ADIVINA ADIVINADOR!</h1>  
      
       <div class="question-container">
