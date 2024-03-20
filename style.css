@@ -1,13 +1,16 @@
 * {
+  margin: 1;
+  padding: 1;
   box-sizing: border-box;
+  
 }
 
 body{
 background: url(https://cdn.glitch.global/f9d11a1b-1d25-4f01-a4a0-92e3376002a9/yellow-question-mark-background-with-text-space-quiz-symbol-vector.jpg?v=1710902393255);
 background-size: cover;
 background-attachment: fixed;
-  
 margin: 0;
+
 }
 <style>
 * {
@@ -19,10 +22,12 @@ header {
   color: ;
   text-align: center;
   padding: 20px 0;
+
 }
 body {
   
   background-color: #81F7D8;
+   
 }
 h1 {
   color:  #FFFFFF;
