@@ -6,9 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Adivina Adivinador!</title>
     <link rel="stylesheet" href="style.css">
-    
+
   </head>
+  
     <body>
+      
+      <header>
+       <h1> Bienvenidos!!!!</h1>     
+      
+      </header>
+
+      
+    <div id="bienvenida">
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" id="nombre">
+        <button onclick="iniciarJuego()">Comenzar</button>
+        
+    </div>
+      <div id="preguntas" style="display: none;">
+      <p id="mensajeBienvenida"></p>
+        
+        
       <h1>¡ADIVINA ADIVINADOR!</h1>
       
     <div class="question">
@@ -42,7 +60,7 @@
     
       <button onclick="responder_3()">Verificar_3</button>
       
-      
+    <script src="script.js"></script>  
     </body>
     
 
