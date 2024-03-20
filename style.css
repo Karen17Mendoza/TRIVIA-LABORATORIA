@@ -16,20 +16,8 @@ body{
 <style>
 * {
   text-align: center;
-  color: red;
 }
-header {
-  background-color:  #800080;
-  color: ;
-  text-align: center;
-  padding: 10px 0;
 
-}
-body {
-  
-  background-color: #81F7D8;
-   
-}
 h1 {
   color:  #FFFFFF;
   text-align: center;
@@ -57,11 +45,17 @@ button:active {
   transform: translateY(4px);
 }
 img {
-    width: 500px; 
+    width: 700px; 
     height: auto; 
 }
-
-
+.question {
+    font-size: 20px; /* Tamaño de letra para las preguntas */
+}
+.question-container {
+    border: 2px solid #ccc; /* Borde de 2 píxeles sólido con color gris claro */
+    padding: 10px; /* Espaciado interior de 10 píxeles */
+    margin-bottom: 20px; /* Margen inferior de 20 píxeles entre cada contenedor de pregunta */
+}
 
 
 
