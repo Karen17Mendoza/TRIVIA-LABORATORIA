@@ -49,12 +49,15 @@ img {
     height: auto; 
 }
 .question {
-    font-size: 20px; /* Tamaño de letra para las preguntas */
+    font-size: 25px; /* Tamaño de letra para las preguntas */
 }
 .question-container {
-    border: 2px solid #ccc; /* Borde de 2 píxeles sólido con color gris claro */
+    width: 50%; 
+    margin: 0 auto;
+    border: 2px solid black; /* Borde de 2 píxeles sólido con color gris claro */
     padding: 10px; /* Espaciado interior de 10 píxeles */
-    margin-bottom: 20px; /* Margen inferior de 20 píxeles entre cada contenedor de pregunta */
+    margin-bottom: 10px; /* Margen inferior de 20 píxeles entre cada contenedor de pregunta */
+    background-color:  #E0B0FF; /* Color de fondo gris claro */
 }
 
 
