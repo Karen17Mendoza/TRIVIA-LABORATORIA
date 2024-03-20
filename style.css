@@ -19,9 +19,9 @@ body{
 }
 
 h1 {
-  color:  #FFFFFF;
+  color:  black;
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
 }
 button {
   display: inline-block;
@@ -49,13 +49,13 @@ img {
     height: auto; 
 }
 .question {
-    font-size: 25px; /* Tamaño de letra para las preguntas */
+    font-size: 25px; /*tamaño de letrade las preguntas*/
 }
 .question-container {
     width: 50%; 
     margin: 0 auto;
-    border: 2px solid black; /* Borde de 2 píxeles sólido con color gris claro */
-    padding: 10px; /* Espaciado interior de 10 píxeles */
+    border: 2px solid black; /* ancho de borde  */
+    padding: 10px; /* Espaciado entre  */
     margin-bottom: 10px; /* Margen inferior de 20 píxeles entre cada contenedor de pregunta */
     background-color:  #E0B0FF; /* Color de fondo gris claro */
 }
