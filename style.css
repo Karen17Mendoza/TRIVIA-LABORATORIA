@@ -1,3 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+background: url(https://cdn.glitch.global/f9d11a1b-1d25-4f01-a4a0-92e3376002a9/yellow-question-mark-background-with-text-space-quiz-symbol-vector.jpg?v=1710902393255);
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+}
+<style>
+* {
+  text-align: center;
+  color: red;
+}
+body {
+  
+  background-color: #81F7D8;
+}
+h1 {
+  color:  #0000FF;
+  text-align: center;
+  font-size: 50px;
+}
+button {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: ;
+  background-color:#9A2EFE ;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 9px ;
+}
+button:hover {background-color: #F4FA58}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px ;
+  transform: translateY(4px);
+}
+
+
 
 
 
