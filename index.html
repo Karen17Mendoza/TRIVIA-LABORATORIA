@@ -34,32 +34,33 @@
             <input type="radio" name="q1" value="b"> <label for="b">Platón</label><br>
             <input type="radio" name="q1" value="c"> <label for="c">Sócrates</label><br>
             <input type="radio" name="q1" value="d"> <label for="d">Pitágoras</label><br>
-    </div>
-      <button onclick="responder_1()">Verificar_1</button>
-      
-      
-     <div class="question">
+   
+       <button id="verificar_1" onclick="verificarRespuesta('q1')">Verificar_1</button>
+       <p id="mensaje1"></p>
+           
            <p>Pregunta 2: ¿Quién dirigió la película "Titanic"?</p>
-            <input type="radio" name="q1" value="a"> <label for="a">James Cameron</label><br>
-            <input type="radio" name="q1" value="b"> <label for="b">Guillermo del Toro</label><br>
-            <input type="radio" name="q1" value="c"> <label for="c">Stephen Spierlberg</label><br> 
-            <input type="radio" name="q1" value="d"> <label for="d">Martin Scorsese</label><br> 
-     </div>
+            <input type="radio" name="q2" value="a"> <label for="a">James Cameron</label><br>
+            <input type="radio" name="q2" value="b"> <label for="b">Guillermo del Toro</label><br>
+            <input type="radio" name="q2" value="c"> <label for="c">Stephen Spierlberg</label><br> 
+            <input type="radio" name="q2" value="d"> <label for="d">Martin Scorsese</label><br> 
+   
       
-       <button onclick="responder_2()">Verificar_2</button>
-      
-      <div class="question">
+        <button id="verificar_2" onclick="verificarRespuesta('q2')">Verificar_2</button>
+        <p id="mensaje1"></p>
             <p>Pregunta 3: ¿De qué color es la bandera de Alemania?</p>
-            <input type="radio" name="q1" value="a"> <label for="a">Azul, balnco, amarillo</label><br>
-            <input type="radio" name="q1" value="b"> <label for="b">Rojo, negro, blanco</label><br>
-            <input type="radio" name="q1" value="c"> <label for="c">Rojo, negro, amarillo</label><br> 
-            <input type="radio" name="q1" value="d"> <label for="d">Blanco, rojo, negro</label><br>
+            <input type="radio" name="q3" value="a"> <label for="a">Azul, balnco, amarillo</label><br>
+            <input type="radio" name="q3" value="b"> <label for="b">Rojo, negro, blanco</label><br>
+            <input type="radio" name="q3" value="c"> <label for="c">Rojo, negro, amarillo</label><br> 
+            <input type="radio" name="q3" value="d"> <label for="d">Blanco, rojo, negro</label><br>
       
       </div>
     
-      <button onclick="responder_3()">Verificar_3</button>
-      
-    <script src="script.js"></script>  
+      <button id="verificar_3" onclick="verificarRespuesta('q3')">Verificar_3</button>
+      <p id="mensaje1"></p>
+        
+      <button onclick="reiniciarJuego()">Volver a jugar</button>
+        
+      <script src="script.js"></script>  
     </body>
     
 
