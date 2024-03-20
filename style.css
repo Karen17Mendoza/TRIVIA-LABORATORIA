@@ -1,10 +1,14 @@
 * {
-  margin: 1;
-  padding: 1;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   
 }
-
+.nombre-input {
+    font-size: 20px; /* Tamaño de fuente */
+    padding: 8px; /* Espaciado interno */
+    width: 300px; /* Ancho del campo de entrada */
+}
 body{
   background: url(https://cdn.glitch.global/f9d11a1b-1d25-4f01-a4a0-92e3376002a9/yellow-question-mark-background-with-text-space-quiz-symbol-vector.jpg?v=1710902393255);
   background-size: cover;
@@ -52,12 +56,12 @@ img {
     font-size: 25px; /*tamaño de letrade las preguntas*/
 }
 .question-container {
-    width: 50%; 
+    width: 35%; 
     margin: 0 auto;
     border: 2px solid black; /* ancho de borde  */
-    padding: 10px; /* Espaciado entre  */
-    margin-bottom: 10px; /* Margen inferior de 20 píxeles entre cada contenedor de pregunta */
-    background-color:  #E0B0FF; /* Color de fondo gris claro */
+    padding: 20px; /* Espaciado interior  */
+    margin-bottom: 10px; /* Margen inferior  entre cada contenedor de pregunta */
+    background-color:  #E0B0FF; /* Color de fondo */
 }
 
 

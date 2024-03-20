@@ -17,9 +17,11 @@
       <img src="https://cdn.glitch.global/5154194b-3839-44d0-9a45-28a7a7399af5/imagen-ejemplo.jpg?v=1710956953251" >
 
       
-        <div id="bienvenida">
-        <label for="nombre">Ingrese su nombre:</label>
-        <input type="text" id="nombre"> <br>
+        <div id="bienvenida" >
+          
+        <label for="nombre" class = "nombre-input">Ingrese su nombre:</label>
+        <input type="text" id="nombre" > <br>
+          
         <button onclick="elegirTipoPreguntas('faciles')">TEMA 1</button> 
         <button onclick="elegirTipoPreguntas('dificiles')">TEMA 2</button> <br>    
         <button onclick="iniciarJuego()">Jugar</button>
@@ -31,7 +33,7 @@
         <h1>!ADIVINA ADIVINADOR!</h1>  
      
       <div class="question-container">
-        <p><strong>Pregunta 1: ¿Quién dijo "SOLO SE QUE NADA SE "?</p>
+        <p>Pregunta 1: ¿Quién dijo "SOLO SE QUE NADA SE "?</p>
             <input type="radio" name="q1" value="a"> <label for="a">Aristoteles</label><br>
             <input type="radio" name="q1" value="b"> <label for="b">Platón</label><br>
             <input type="radio" name="q1" value="c"> <label for="c">Sócrates</label><br>
