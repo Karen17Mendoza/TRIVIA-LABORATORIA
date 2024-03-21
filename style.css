@@ -68,10 +68,15 @@ button:active {
   transform: translateY(7px);
 }
 
-img{
-    width: 700px; 
+.imagen1{
+    width: 7px; 
     height: auto; 
 }
+.imagen2{
+    width: 400px; 
+    height: auto; 
+}
+
 .question {
     font-size: 25px; /*tamaño de letrade las preguntas*/
 }
