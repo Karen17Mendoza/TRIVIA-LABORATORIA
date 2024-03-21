@@ -1,3 +1,10 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -74,9 +81,23 @@ img{
     border: 2px solid black; /* ancho de borde  */
     padding: 20px; /* Espaciado interior  */
     margin-bottom: 10px; /* Margen inferior  entre cada contenedor de pregunta */
-    background-color:  #E0B0FF; /* Color de fondo */
+    background-color:  #87CEFA; /* Color de fondo */
+}
+.puntaje-box {
+    width: 10%; 
+    margin: 0 auto;
+    background-color: #FFFF00; /* Color de fondo del cuadro */
+    border: 2px solid black; /* Borde del cuadro */
+    padding: 10px; /* Espaciado interno */
+    width: 200px; /* Ancho del cuadro */
+    text-align: center; /* Alinear el texto al centro */
+    margin-bottom: 20px; /* Espacio debajo del cuadro */
+   
 }
 
+#puntaje-valor {
+    font-weight: bold; /* Hacer el puntaje en negrita */
+}
 
 
 

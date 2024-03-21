@@ -6,7 +6,6 @@ function iniciarJuego() {
 }
 
 let respuestasCorrectas = 0;
-let puntaje = respuestasCorrectas*100;
 
 function verificarRespuesta(preguntaId) {
     // 
@@ -49,7 +48,7 @@ function verificarRespuesta(preguntaId) {
     } else {
         mensajeElemento.textContent = "Por favor, seleccione una respuesta.";
     }
-  
+  let puntaje = respuestasCorrectas*100;
   document.getElementById("contador-respuestas").textContent = "Respuestas correctas: " + respuestasCorrectas;
   document.getElementById("puntaje").textContent = "Tu puntaje total es: " + puntaje;
 }
