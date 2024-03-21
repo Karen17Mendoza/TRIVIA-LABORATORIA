@@ -10,11 +10,21 @@
     padding: 8px; /* Espaciado interno */
     width: 300px; /* Ancho del campo de entrada */
 }
-body{
-  
+
+header{
+    background-color:#4B088A ; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    font-size: 25px; /* Tamaño de fuente */
+    padding: 10px; /* Relleno interno */
+    border-radius: ; /* Radio del borde */
+    box-shadow: 3px 3px 5px #2a2929; /* Sombra */
     
-       
 }
+body{
+  background:linear-gradient(#58FAF4,#0040FF,#2EFEF7);
+}
+
 <style>
 * {
   text-align: center;
@@ -29,26 +39,28 @@ h1 {
     font-size: 24px; 
 }
 button {
-  display: inline-block;
-  padding: 8px 20px;
-  font-size: 20px;
+   display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
   color: ;
-  background-color:#9A2EFE ;
+  background-color: #00FF00;
   border: none;
-  border-radius: 12px;
-  box-shadow: 0 9px ;
+  border-radius: 15px;
+  box-shadow: 0 9px black;
 }
-button:hover {background-color: #F4FA58}
+
+button:hover {background-color:#FFFF00 }
 
 button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px ;
-  transform: translateY(4px);
+  background-color:#088A08 ;
+  box-shadow: 0 5px black;
+  transform: translateY(7px);
 }
+
 img {
     width: 700px; 
     height: auto; 
@@ -64,6 +76,7 @@ img {
     margin-bottom: 10px; /* Margen inferior  entre cada contenedor de pregunta */
     background-color:  #E0B0FF; /* Color de fondo */
 }
+
 
 
 
