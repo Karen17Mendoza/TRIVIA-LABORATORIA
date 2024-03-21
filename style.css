@@ -13,6 +13,14 @@ body, html {
 }
 
 .nombre-input {
+    color: blue;
+    font-size: 30px; /* Tamaño de fuente */
+    padding: 8px; /* Espaciado interno */
+    width: 300px; /* Ancho del campo de entrada */
+    text-align: center;
+}
+.nombre-input1{
+    color: black;
     font-size: 30px; /* Tamaño de fuente */
     padding: 8px; /* Espaciado interno */
     width: 300px; /* Ancho del campo de entrada */
