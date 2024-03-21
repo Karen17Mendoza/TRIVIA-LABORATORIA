@@ -12,13 +12,13 @@
 }
 
 header{
-    background-color:#4B088A ; /* Color de fondo */
-    color: white; /* Color del texto */
-    text-align: center; /* Alineación del texto */
-    font-size: 25px; /* Tamaño de fuente */
-    padding: 10px; /* Relleno interno */
-    border-radius: ; /* Radio del borde */
-    box-shadow: 3px 3px 5px #2a2929; /* Sombra */
+    background-color:#4B088A ; 
+    color:black ; 
+    text-align: center;
+    font-size: 25px;
+    padding: 10px; 
+    border-radius: ; 
+    box-shadow: 3px 3px 5px #2a2929; 
     
 }
 body{
@@ -31,7 +31,7 @@ body{
 }
 
 h1 {
-  color:  black;
+  color:  white;
   text-align: center;
   font-size: 80px;
 }
