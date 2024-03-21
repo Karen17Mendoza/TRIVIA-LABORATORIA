@@ -41,7 +41,7 @@ function verificarRespuesta(preguntaId) {
             respuestasCorrectas++;
             mensajeElemento.textContent = "¡Respuesta correcta!";
         } else {
-            //mensajeElemento.textContent = "Respuesta incorrecta. La respuesta correcta es: " + respuestaCorrecta.toUpperCase();
+            
             mensajeElemento.textContent = "Respuesta incorrecta. La respuesta correcta es: " + respuestaCorrectaTexto;
           
         }
