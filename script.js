@@ -28,7 +28,7 @@ function verificarRespuesta(preguntaId) {
         switch (preguntaId) {
             case "q1":
                 respuestaCorrecta = "a";
-                respuestaCorrectaTexto="aristoteles"
+                respuestaCorrectaTexto="Aristoteles"
                 break;
             case "q2":
                 respuestaCorrecta = "a";
