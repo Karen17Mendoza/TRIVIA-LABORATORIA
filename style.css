@@ -80,6 +80,11 @@ button:active {
     width: 400px; 
     height: auto; 
 }
+.imagen4{
+    width: 00px; 
+    height: 13px; 
+}
+
 
 .question {
     font-size: 25px; /*tamaño de letrade las preguntas*/
