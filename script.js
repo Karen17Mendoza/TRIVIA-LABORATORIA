@@ -5,6 +5,13 @@ function iniciarJuego() {
     document.getElementById("preguntas").style.display = "block";
 }
 
+function iniciarJuego1() {
+    var nombre = document.getElementById("nombre").value;
+    document.getElementById("mensajeBienvenida1").textContent = "Hola " + nombre + ", bienvenido/a!";
+    document.getElementById("bienvenida").style.display = "none";
+    document.getElementById("preguntas1").style.display = "block";
+}
+
 let respuestasCorrectas = 0;
 
 function verificarRespuesta(preguntaId) {
