@@ -26,8 +26,7 @@ mostrar nuestra trivia, se eligio hacerlo lo mas dinamico, divertido e interacti
 el usuario. Nos enfocamos en que el usuario puede aprender y a la vez entretenerse con 
 un interfaz entretenido.
 
-https://cdn.glitch.global/f9d11a1b-1d25-4f01-a4a0-92e3376002a9/proceso.jpeg?v=1711002078572
-
+![Imagen del prototipo](https://cdn.glitch.global/f9d11a1b-1d25-4f01-a4a0-92e3376002a9/proceso.jpeg?v=1711002078572)
 
 
 
